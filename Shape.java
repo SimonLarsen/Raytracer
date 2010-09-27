@@ -1,8 +1,10 @@
 public class Shape{
+	public float t;
+
 	public Shape(){
 	}
 
-	boolean intersect(Vector3f vec){
+	boolean intersect(Ray ray){
 		return false;
 	}
 

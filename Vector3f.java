@@ -37,4 +37,12 @@ public class Vector3f{
 	public Vector3f sub(Vector3f i){
 		return new Vector3f(x-i.x, y-i.y, z-i.z);
 	}
+
+	public float dot(Vector3f b){
+		return x * b.x + y * b.y + z * b.z;
+	}
+
+	public static float dot(Vector3f a, Vector3f b){
+		return a.x * b.x + a.y * b.y + a.z * b.z;
+	}
 }
