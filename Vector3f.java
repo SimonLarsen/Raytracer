@@ -45,4 +45,8 @@ public class Vector3f{
 	public static float dot(Vector3f a, Vector3f b){
 		return a.x * b.x + a.y * b.y + a.z * b.z;
 	}
+
+	public Vector3f multi(float f){
+		return new Vector3f(x*f, y*f, z*f);
+	}
 }

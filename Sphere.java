@@ -42,5 +42,9 @@ public class Sphere extends Shape{
 			return true;
 		}
 	}
+
+	public boolean checkBBox(Ray ray){
+		return true;
+	}
 }
 

@@ -15,4 +15,8 @@ public class Ray {
 		o = new Vector3f(a,b,c);
 		dir = new Vector3f(x,y,z);
 	}
+
+	public Vector3f at(float t){
+		return dir.multi(t).add(o);	
+	}
 }

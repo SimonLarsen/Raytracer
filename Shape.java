@@ -8,7 +8,7 @@ public class Shape{
 		return false;
 	}
 
-	boolean checkBBox(Vector3f vec){
+	boolean checkBBox(Ray ray){
 		return false;
 	}
 }
